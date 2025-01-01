@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="06b0e1b8-aff7-4062-b31e-5634f8e974aa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../../../../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../../../LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../../../build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../../../gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../../../gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../../../settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../java/org/pancake/fantasteamorigins/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../java/org/pancake/fantasteamorigins/Fantasteamorigins.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../java/org/pancake/fantasteamorigins/item/ModCreativeModeTabs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../java/org/pancake/fantasteamorigins/item/ModItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../META-INF/mods.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../assets/fantasteamorigins/lang/en_us.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../assets/fantasteamorigins/models/item/solid_luck.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../assets/fantasteamorigins/textures/item/solid_luck.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../origins/bear_knight.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../origins/darknessenergy.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../origins/experiment_13.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../origins/kirby.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../origins/lightanddark.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../origins/lightenergy.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../origins/lightning_spirit.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../origins/sea_prince.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../origins/sniffer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../origins/sun_thief.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../origins/vastayan.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../origins/wind_princess.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bear_knight/hpunch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bear_knight/hungry.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bear_knight/knight_armor.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bear_knight/magicks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bear_knight/poison.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bear_knight/rage.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bear_knight/salmon.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bear_knight/tall.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../darknessenergy/darkness.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../experiment_13/plant.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kirby/air.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kirby/airjump.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kirby/airpuff.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kirby/airpuff2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kirby/damage.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kirby/fall.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kirby/food.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kirby/hungry.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kirby/small.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kirby/small2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kirby/suck.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lightanddark/change.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lightanddark/light_energy.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lightenergy/solar.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lightning_spirit/charge.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lightning_spirit/downsides.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lightning_spirit/lightning.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lightning_spirit/max.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lightning_spirit/modes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lightning_spirit/move.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lightning_spirit/resource.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lightning_spirit/still.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lightning_spirit/tp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sea_prince/fish.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/falldamage.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/friend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/herbavore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/horse.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jump.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/move.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ride.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/two_stumachs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sun_thief/flight.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sun_thief/liquid_luck.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sun_thief/steal.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sun_thief/wings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vastayan/armor.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vastayan/dash.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vastayan/health.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vastayan/jump.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wind_princess/friend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wind_princess/pglider.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wind_princess/poison.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wind_princess/tamable.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wind_princess/weak.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../tags/items/cookedmeat.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../tags/items/lavafood.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../tags/items/rawmeat.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../tags/items/seafood.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../tags/items/striderfood.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../tags/items/veggies.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../origins/origin_layers/lightanddark.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../origins/origin_layers/origin.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../pack.mcmeta" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2m4mtZyKEXwNaPGbHxl2fVBCmfT" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/savio/Downloads/vfaust"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-4caba194b151-23eed401" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="06b0e1b8-aff7-4062-b31e-5634f8e974aa" name="Changes" comment="" />
+      <created>1726344437328</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726344437328</updated>
+    </task>
+    <servers />
+  </component>
+</project>

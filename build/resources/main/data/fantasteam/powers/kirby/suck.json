@@ -1,0 +1,29 @@
+{
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:change_resource",
+    "resource": "fantasteamorigins:kirby/air",
+    "change": 1
+  },
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+    "inverted": true,
+    "type": "origins:submerged_in",
+    "fluid": "minecraft:water"
+      },
+      {
+        "type": "origins:on_block"
+      }
+      ]
+  },
+  "cooldown": 20,
+  "hud_render": {
+    "should_render": false
+  },
+  "key": {
+    "key": "primary",
+    "continuous": true
+  }
+}

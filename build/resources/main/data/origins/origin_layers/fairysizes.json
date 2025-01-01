@@ -1,0 +1,71 @@
+{
+  "origins": [
+    {
+      "origins": [
+        "fantasteamorigins:small_fairy"
+      ],
+      "condition":{
+      "type": "origins:and",
+      "conditions":
+      [
+        {
+          "type": "origins:resource",
+          "resource": "fantasteamorigins:fairy/fairy_dust",
+          "comparison": ">",
+          "compare_to": 1
+        },
+        {
+          "type": "origins:origin",
+          "origin": "fantasteamorigins:large_fairy",
+          "inverted": true
+        }
+      ]
+      }
+    },
+    {
+      "origins": [
+        "fantasteamorigins:fairy_normal"
+      ],
+      "condition":{
+        "type": "origins:and",
+        "conditions":
+        [
+          {
+            "type": "origins:origin",
+            "origin": "fantasteamorigins:large_fairy",
+            "inverted": true
+          },
+          {
+            "type": "origins:origin",
+            "origin": "fantasteamorigins:small_fairy",
+            "inverted": true
+          }
+        ]
+      }
+    },
+    {
+      "origins": [
+        "fantasteamorigins:large_fairy"
+      ],
+      "condition":{
+        "type": "origins:and",
+        "conditions":
+        [
+          {
+            "type": "origins:resource",
+            "resource": "fantasteamorigins:fairy/fairy_dust",
+            "comparison": ">",
+            "compare_to": 1
+          },
+          {
+            "type": "origins:origin",
+            "origin": "fantasteamorigins:small_fairy",
+            "inverted": true
+          }
+        ]
+      }
+    }
+  ],
+  "name": "size.",
+  "enabled": false
+}

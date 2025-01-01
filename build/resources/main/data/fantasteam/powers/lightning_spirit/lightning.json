@@ -1,0 +1,67 @@
+{
+  "type": "origins:multiple",
+
+  "first": {
+    "type": "origins:fire_projectile",
+    "entity_type": "minecraft:small_fireball",
+    "cooldown": 1,
+    "hud_render": {
+      "should_render": false
+    },
+    "count": 1,
+    "interval": 1,
+    "shooter_action": {
+      "type": "origins:change_resource",
+      "resource": "fantasteamorigins:lightning_spirit/resource",
+      "change": -50
+    },
+    "tag": "{Item: {id: 'minecraft:snow_ball', Count: 1b}}",
+    "key": {
+      "key": "key.origins.secondary_active",
+      "continuous": false
+    },
+  "condition": {
+  "type": "origins:resource",
+  "resource": "fantasteamorigins:lightning_spirit/resource",
+  "comparison": ">",
+  "compare_to": 50
+  }
+},
+
+  "third": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:raycast",
+      "distance": 10,
+      "block": true,
+      "entity": true,
+      "hit_action": {
+      "type": "origins:and",
+      "actions": [
+      {
+        "type": "origins:change_resource",
+        "resource": "fantasteamorigins:lightning_spirit/resource",
+        "change": -200
+      }
+      ]
+      },
+      "shape_type": "visual",
+      "fluid_handling": "any",
+      "command_at_hit": "summon minecraft:lightning_bolt ~ ~ ~",
+      "command_along_ray": "particle minecraft:firework",
+      "command_step": 1,
+      "command_along_ray_only_on_hit": true
+    },
+    "key": {
+      "key": "key.origins.secondary_active"
+    },
+  "condition": {
+  "type": "origins:resource",
+  "resource": "fantasteamorigins:lightning_spirit/resource",
+  "comparison": "==",
+  "compare_to": 700
+  }
+}
+
+
+}

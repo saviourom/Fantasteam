@@ -1,0 +1,12 @@
+{
+  "powers": [
+    "fantasteamorigins:wind_princess/pglider",
+    "fantasteamorigins:wind_princess/tamable",
+    "fantasteamorigins:wind_princess/poison",
+    "fantasteamorigins:wind_princess/friend",
+    "fantasteamorigins:wind_princess/weak"
+  ],
+  "icon": "minecraft:grass",
+  "impact": 2,
+  "order": 1
+}

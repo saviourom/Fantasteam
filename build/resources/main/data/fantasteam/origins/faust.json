@@ -1,0 +1,16 @@
+{
+    "powers": [
+        "fantasteamorigins:faust/quill",
+        "fantasteamorigins:faust/strings",
+        "fantasteamorigins:faust/souls",
+        "fantasteamorigins:faust/light",
+        "vfaust"
+    ],
+    "order": 1,
+    "impact": 1,
+    "icon": {
+        "item": "minecraft:writable_book"
+    },
+    "name": "Faustian Dealer",
+    "description": "A demon who trades in peculiar currency, one that existed since time's dawn."
+}

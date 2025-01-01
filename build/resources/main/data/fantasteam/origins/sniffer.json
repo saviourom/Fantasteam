@@ -1,0 +1,17 @@
+{
+  "powers": [
+    "fantasteamorigins:sniffer/move",
+    "fantasteamorigins:sniffer/horse",
+    "fantasteamorigins:sniffer/jump",
+    "fantasteamorigins:sniffer/friend",
+    "fantasteamorigins:sniffer/two_stumachs",
+    "fantasteamorigins:sniffer/herbavore",
+    "fantasteamorigins:sniffer/ride",
+    "fantasteamorigins:sniffer/falldamage"
+
+
+  ],
+  "icon": "minecraft:moss_block",
+  "impact": 1,
+  "order": 1
+}

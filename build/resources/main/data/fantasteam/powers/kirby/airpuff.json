@@ -1,0 +1,22 @@
+{
+	"type": "origins:fire_projectile",
+	"entity_type": "minecraft:llama_spit",
+	"cooldown": 5,
+	"count": 1,
+	"speed": 2,
+	"divergence": 1,
+	"hud_render": {
+		"should_render": false,
+		"bar_index": 5
+	},
+	"condition": {
+    	"type": "origins:resource",
+    	"resource": "fantasteamorigins:kirby/air",
+    	"comparison": ">",
+    	"compare_to": 0
+    },
+	"key": {
+		"key": "secondary"
+	},
+  	"hidden": true
+}

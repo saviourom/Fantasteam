@@ -1,0 +1,16 @@
+{
+  "loading_priority": 2,
+  "powers": [
+    "fantasteamorigins:bear_knight/tall",
+    "fantasteamorigins:bear_knight/knight_armor",
+    "fantasteamorigins:bear_knight/hpunch",
+    "fantasteamorigins:bear_knight/hungry",
+    "fantasteamorigins:bear_knight/rage",
+    "fantasteamorigins:bear_knight/magicks",
+    "fantasteamorigins:bear_knight/poison",
+    "fantasteamorigins:bear_knight/salmon"
+  ],
+  "icon": "minecraft:honey_bottle",
+  "impact": 1,
+  "order": 1
+}

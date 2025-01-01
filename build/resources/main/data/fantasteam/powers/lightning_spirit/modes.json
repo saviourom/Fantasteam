@@ -1,0 +1,98 @@
+{
+  "type": "origins:multiple",
+
+  "first": {
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "minecraft:speed",
+      "duration": 40,
+      "is_ambient": false,
+      "show_particles": false,
+      "show_icon": true
+    }
+  },
+  "interval": 1,
+  "condition": {
+  "type": "origins:resource",
+  "resource": "fantasteamorigins:lightning_spirit/resource",
+  "comparison": ">=",
+  "compare_to": 100
+  }
+},
+
+  "second": {
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effects": [
+      {
+        "effect": "minecraft:speed",
+        "duration": 40,
+        "amplifier": 1,
+        "is_ambient": false,
+        "show_particles": false,
+        "show_icon": true
+      },
+      {
+        "effect": "minecraft:strength",
+        "duration": 40,
+        "amplifier": 0,
+        "is_ambient": false,
+        "show_particles": false,
+        "show_icon": true
+      }
+    ]
+  },
+  "interval": 1,
+  "condition": {
+  "type": "origins:resource",
+  "resource": "fantasteamorigins:lightning_spirit/resource",
+  "comparison": ">=",
+  "compare_to": 350
+  }
+},
+
+  "third": {
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effects":[
+      {
+        "effect": "minecraft:speed",
+        "duration": 40,
+        "amplifier": 2,
+        "is_ambient": false,
+        "show_particles": false,
+        "show_icon": true
+      },
+      {
+        "effect": "minecraft:strength",
+        "duration": 40,
+        "amplifier": 1,
+        "is_ambient": false,
+        "show_particles": false,
+        "show_icon": true
+      },
+      {
+        "effect": "minecraft:resistance",
+        "duration": 40,
+        "amplifier": 0,
+        "is_ambient": false,
+        "show_particles": false,
+        "show_icon": true
+      }
+    ]
+  },
+  "interval": 1,
+  "condition": {
+  "type": "origins:resource",
+  "resource": "fantasteamorigins:lightning_spirit/resource",
+  "comparison": "==",
+  "compare_to": 700
+  }
+}
+
+
+}

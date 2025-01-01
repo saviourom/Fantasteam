@@ -1,0 +1,34 @@
+{
+
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:if_else",
+      "condition": {
+        "type": "origins:and",
+        "conditions":
+        [
+          {
+            "type": "origins:resource",
+            "resource": "fantasteamorigins:fairy/fairy_dust",
+            "comparison": ">",
+            "compare_to": 1
+          },
+          {
+            "type": "origins:origin",
+            "origin": "fantasteamorigins:fairy_normal",
+            "layer": "fantasteamorigins:fairysizes"
+
+          }
+        ]
+      },
+      "if_action": {
+        "type": "origins:execute_command",
+        "command": "origin set @s origins:fairysizes fantasteamorigins:small_fairy"
+      }
+
+    },
+    "cooldown": 1,
+    "hud_render": {
+      "should_render": false
+    }
+}
