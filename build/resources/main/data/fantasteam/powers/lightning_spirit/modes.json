@@ -16,7 +16,7 @@
   "interval": 1,
   "condition": {
   "type": "origins:resource",
-  "resource": "fantasteamorigins:lightning_spirit/resource",
+  "resource": "fantasteam:lightning_spirit/resource",
   "comparison": ">=",
   "compare_to": 100
   }
@@ -48,7 +48,7 @@
   "interval": 1,
   "condition": {
   "type": "origins:resource",
-  "resource": "fantasteamorigins:lightning_spirit/resource",
+  "resource": "fantasteam:lightning_spirit/resource",
   "comparison": ">=",
   "compare_to": 350
   }
@@ -88,7 +88,7 @@
   "interval": 1,
   "condition": {
   "type": "origins:resource",
-  "resource": "fantasteamorigins:lightning_spirit/resource",
+  "resource": "fantasteam:lightning_spirit/resource",
   "comparison": "==",
   "compare_to": 700
   }

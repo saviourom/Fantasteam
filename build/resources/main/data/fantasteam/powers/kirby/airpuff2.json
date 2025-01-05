@@ -2,12 +2,12 @@
   "type": "origins:active_self",
   "entity_action": {
     "type": "origins:change_resource",
-    "resource": "fantasteamorigins:kirby/air",
+    "resource": "fantasteam:kirby/air",
     "change": -1
   },
   "condition": {
     "type": "origins:resource",
-    "resource": "fantasteamorigins:kirby/air",
+    "resource": "fantasteam:kirby/air",
     "comparison": ">",
     "compare_to": 0
   },

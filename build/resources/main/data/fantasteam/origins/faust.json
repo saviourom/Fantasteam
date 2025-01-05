@@ -1,9 +1,9 @@
 {
     "powers": [
-        "fantasteamorigins:faust/quill",
-        "fantasteamorigins:faust/strings",
-        "fantasteamorigins:faust/souls",
-        "fantasteamorigins:faust/light",
+        "fantasteam:faust/quill",
+        "fantasteam:faust/strings",
+        "fantasteam:faust/souls",
+        "fantasteam:faust/light",
         "vfaust"
     ],
     "order": 1,

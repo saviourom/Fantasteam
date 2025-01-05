@@ -1,8 +1,8 @@
 {
   "powers": [
-    "fantasteamorigins:large_fairy/shrink",
-    "fantasteamorigins:large_fairy/flightless",
-    "fantasteamorigins:large_fairy/large"
+    "fantasteam:large_fairy/shrink",
+    "fantasteam:large_fairy/flightless",
+    "fantasteam:large_fairy/large"
   ],
-  "icon": "fantasteamorigins:solid_luck"
+  "icon": "fantasteam:solid_luck"
 }

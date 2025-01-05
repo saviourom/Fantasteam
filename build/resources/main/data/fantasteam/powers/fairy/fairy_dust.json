@@ -10,6 +10,6 @@
   "hidden": true,
   "min_action": {
     "type": "origins:execute_command",
-    "command": "origin set @s origins:fairysizes fantasteamorigins:fairy_normal"
+    "command": "origin set @s origins:fairysizes fantasteam:fairy_normal"
   }
 }

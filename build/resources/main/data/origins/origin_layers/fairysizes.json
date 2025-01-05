@@ -2,7 +2,7 @@
   "origins": [
     {
       "origins": [
-        "fantasteamorigins:small_fairy"
+        "fantasteam:small_fairy"
       ],
       "condition":{
       "type": "origins:and",
@@ -10,13 +10,13 @@
       [
         {
           "type": "origins:resource",
-          "resource": "fantasteamorigins:fairy/fairy_dust",
+          "resource": "fantasteam:fairy/fairy_dust",
           "comparison": ">",
           "compare_to": 1
         },
         {
           "type": "origins:origin",
-          "origin": "fantasteamorigins:large_fairy",
+          "origin": "fantasteam:large_fairy",
           "inverted": true
         }
       ]
@@ -24,7 +24,7 @@
     },
     {
       "origins": [
-        "fantasteamorigins:fairy_normal"
+        "fantasteam:fairy_normal"
       ],
       "condition":{
         "type": "origins:and",
@@ -32,12 +32,12 @@
         [
           {
             "type": "origins:origin",
-            "origin": "fantasteamorigins:large_fairy",
+            "origin": "fantasteam:large_fairy",
             "inverted": true
           },
           {
             "type": "origins:origin",
-            "origin": "fantasteamorigins:small_fairy",
+            "origin": "fantasteam:small_fairy",
             "inverted": true
           }
         ]
@@ -45,7 +45,7 @@
     },
     {
       "origins": [
-        "fantasteamorigins:large_fairy"
+        "fantasteam:large_fairy"
       ],
       "condition":{
         "type": "origins:and",
@@ -53,13 +53,13 @@
         [
           {
             "type": "origins:resource",
-            "resource": "fantasteamorigins:fairy/fairy_dust",
+            "resource": "fantasteam:fairy/fairy_dust",
             "comparison": ">",
             "compare_to": 1
           },
           {
             "type": "origins:origin",
-            "origin": "fantasteamorigins:small_fairy",
+            "origin": "fantasteam:small_fairy",
             "inverted": true
           }
         ]

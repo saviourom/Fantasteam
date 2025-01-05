@@ -31,7 +31,7 @@
       },
       "if_action": {
         "type": "origins:change_resource",
-        "resource": "fantasteamorigins:fairy/fairy_dust",
+        "resource": "fantasteam:fairy/fairy_dust",
         "change": -2
       }
     },

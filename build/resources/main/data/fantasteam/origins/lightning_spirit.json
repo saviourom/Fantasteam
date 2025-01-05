@@ -1,14 +1,14 @@
 {
   "powers": [
-    "fantasteamorigins:lightning_spirit/charge",
-    "fantasteamorigins:lightning_spirit/max",
-    "fantasteamorigins:lightning_spirit/tp",
-    "fantasteamorigins:lightning_spirit/move",
-    "fantasteamorigins:lightning_spirit/modes",
-    "fantasteamorigins:lightning_spirit/still",
-    "fantasteamorigins:lightning_spirit/lightning",
-    "fantasteamorigins:lightning_spirit/resource",
-    "fantasteamorigins:lightning_spirit/downsides"
+    "fantasteam:lightning_spirit/charge",
+    "fantasteam:lightning_spirit/max",
+    "fantasteam:lightning_spirit/tp",
+    "fantasteam:lightning_spirit/move",
+    "fantasteam:lightning_spirit/modes",
+    "fantasteam:lightning_spirit/still",
+    "fantasteam:lightning_spirit/lightning",
+    "fantasteam:lightning_spirit/resource",
+    "fantasteam:lightning_spirit/downsides"
   ],
   "icon": "minecraft:lightning_rod",
   "impact": 3,

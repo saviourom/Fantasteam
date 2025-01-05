@@ -2,7 +2,7 @@
   "type": "origins:active_self",
   "entity_action": {
     "type": "origins:execute_command",
-    "command": "origin set @s origins:fairysizes fantasteamorigins:fairy_normal"
+    "command": "origin set @s origins:fairysizes fantasteam:fairy_normal"
   },
   "cooldown": 1,
   "condition": {

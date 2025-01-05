@@ -3,7 +3,7 @@
     "render_elytra": true,
     "condition": {
       "type": "origins:resource",
-    "resource": "fantasteamorigins:sun_thief/liquid_luck",
+    "resource": "fantasteam:sun_thief/liquid_luck",
   "comparison": "<=",
   "compare_to": "100"
     }

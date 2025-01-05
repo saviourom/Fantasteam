@@ -53,7 +53,7 @@
   "interval": 1,
   "entity_action": {
     "type": "origins:change_resource",
-    "resource": "fantasteamorigins:lightning_spirit/resource",
+    "resource": "fantasteam:lightning_spirit/resource",
     "change": -5,
     "operation": "add"
   },

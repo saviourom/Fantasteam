@@ -1,13 +1,13 @@
 {
   "powers": [
-    "fantasteamorigins:sniffer/move",
-    "fantasteamorigins:sniffer/horse",
-    "fantasteamorigins:sniffer/jump",
-    "fantasteamorigins:sniffer/friend",
-    "fantasteamorigins:sniffer/two_stumachs",
-    "fantasteamorigins:sniffer/herbavore",
-    "fantasteamorigins:sniffer/ride",
-    "fantasteamorigins:sniffer/falldamage"
+    "fantasteam:sniffer/move",
+    "fantasteam:sniffer/horse",
+    "fantasteam:sniffer/jump",
+    "fantasteam:sniffer/friend",
+    "fantasteam:sniffer/two_stumachs",
+    "fantasteam:sniffer/herbavore",
+    "fantasteam:sniffer/ride",
+    "fantasteam:sniffer/falldamage"
 
 
   ],

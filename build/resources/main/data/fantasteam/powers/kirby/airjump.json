@@ -15,7 +15,7 @@
             },
             {
                 "type": "origins:change_resource",
-                "resource": "fantasteamorigins:kirby/air",
+                "resource": "fantasteam:kirby/air",
                 "change": -1
             }
         ]
@@ -33,7 +33,7 @@
             },
             {
                 "type": "origins:resource",
-                "resource": "fantasteamorigins:kirby/air",
+                "resource": "fantasteam:kirby/air",
                 "comparison": ">=",
                 "compare_to": 1
             },

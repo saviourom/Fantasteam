@@ -1,8 +1,8 @@
 {
   "powers": [
-    "fantasteamorigins:small_fairy/short",
-    "fantasteamorigins:small_fairy/flight",
-    "fantasteamorigins:small_fairy/grow"
+    "fantasteam:small_fairy/short",
+    "fantasteam:small_fairy/flight",
+    "fantasteam:small_fairy/grow"
   ],
-  "icon": "fantasteamorigins:solid_luck"
+  "icon": "fantasteam:solid_luck"
 }

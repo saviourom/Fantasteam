@@ -1,9 +1,9 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.pancake.fantasteam.mixin",
+  "package": "org.pancake.fantasteam.mixin",
   "compatibilityLevel": "JAVA_8",
-  "refmap": "fantasteam.refmap.json",
+  "refmap": "Fantasteam.refmap.json",
   "mixins": [
   ],
   "client": [

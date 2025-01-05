@@ -5,7 +5,7 @@
   "type": "origins:entity_action_respawned",
   "entity_action_chosen": {
     "type": "origins:change_resource",
-    "resource": "fantasteamorigins:lightning_spirit/resource",
+    "resource": "fantasteam:lightning_spirit/resource",
     "change": -700
     },
 

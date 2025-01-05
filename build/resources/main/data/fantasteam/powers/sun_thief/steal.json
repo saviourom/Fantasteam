@@ -4,7 +4,7 @@
     "type": "origins:actor_action",
     "action": {
     "type": "origins:change_resource",
-    "resource": "fantasteamorigins:sun_thief/liquid_luck",
+    "resource": "fantasteam:sun_thief/liquid_luck",
     "change": 50,
     "operation": "add"
     }

@@ -1,10 +1,10 @@
 {
   "powers": [
-    "fantasteamorigins:vastayan/dash",
-    "fantasteamorigins:vastayan/jump",
-    "fantasteamorigins:vastayan/armor",
-    "fantasteamorigins:vastayan/health",
-    "fantasteamorigins:vastayan/projectile"
+    "fantasteam:vastayan/dash",
+    "fantasteam:vastayan/jump",
+    "fantasteam:vastayan/armor",
+    "fantasteam:vastayan/health",
+    "fantasteam:vastayan/projectile"
 
   ],
   "icon": "minecraft:grass_block",

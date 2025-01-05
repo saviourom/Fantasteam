@@ -2,7 +2,7 @@
   "type": "origins:action_over_time",
   "entity_action": {
     "type": "origins:change_resource",
-    "resource": "fantasteamorigins:fairy/fairy_dust",
+    "resource": "fantasteam:fairy/fairy_dust",
     "change": 1,
     "operation": "add"
   },
@@ -13,12 +13,12 @@
     [
       {
       "type": "origins:origin",
-      "origin": "fantasteamorigins:large_fairy",
+      "origin": "fantasteam:large_fairy",
       "inverted": true
       },
       {
       "type": "origins:origin",
-      "origin": "fantasteamorigins:small_fairy",
+      "origin": "fantasteam:small_fairy",
       "inverted": true
       }
     ]

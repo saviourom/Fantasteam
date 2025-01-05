@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "fantasteamorigins:item/solid_luck"
+    "layer0": "fantasteam:item/solid_luck"
   }
 }

@@ -9,21 +9,21 @@
         [
           {
             "type": "origins:resource",
-            "resource": "fantasteamorigins:fairy/fairy_dust",
+            "resource": "fantasteam:fairy/fairy_dust",
             "comparison": ">",
             "compare_to": 1
           },
           {
             "type": "origins:origin",
-            "origin": "fantasteamorigins:fairy_normal",
-            "layer": "fantasteamorigins:fairysizes"
+            "origin": "fantasteam:fairy_normal",
+            "layer": "fantasteam:fairysizes"
 
           }
         ]
       },
       "if_action": {
         "type": "origins:execute_command",
-        "command": "origin set @s origins:fairysizes fantasteamorigins:small_fairy"
+        "command": "origin set @s origins:fairysizes fantasteam:small_fairy"
       }
 
     },

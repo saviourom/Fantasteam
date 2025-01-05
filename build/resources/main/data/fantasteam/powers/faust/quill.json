@@ -18,7 +18,7 @@
         "type": "origins:action_on_callback",
         "entity_action_chosen": {
             "type": "origins:execute_command",
-            "command": "function fantasteamorigins:give_book"
+            "command": "function fantasteam:give_book"
         }
     },
     "sign": {
@@ -29,7 +29,7 @@
             "ticks": 1,
             "action": {
                 "type": "origins:execute_command",
-                "command": "function fantasteamorigins:pacts/take_ownership"
+                "command": "function fantasteam:pacts/take_ownership"
             }
         },
         "condition": {
@@ -37,7 +37,7 @@
             "equipment_slot": "mainhand",
             "item_condition": {
                 "type": "origins:nbt",
-                "nbt": "{fantasteamorigins_owned:0}"
+                "nbt": "{fantasteam_owned:0}"
             }
         }
     },
@@ -65,7 +65,7 @@
         },
         "result": {
             "item": "minecraft:book",
-            "tag": "{fantasteamorigins_type:'vitality',fantasteamorigins_owned:0,display:{Name:'{\"text\":\"Pact of Gluttony\",\"color\":\"#FF00E6\",\"bold\":false,\"italic\":false}',Lore:['{\"text\":\"§8[i] §rRight-Click in hand to take ownership §r§8[i]\",\"color\":\"#BB00FF\"}','{\"text\":\"§8--------------------\"}','{\"text\":\"§8| §r§d+25% Incoming Healing §r§8|\"}','{\"text\":\"§8--------------------\"}']}}"
+            "tag": "{fantasteam_type:'vitality',fantasteam_owned:0,display:{Name:'{\"text\":\"Pact of Gluttony\",\"color\":\"#FF00E6\",\"bold\":false,\"italic\":false}',Lore:['{\"text\":\"§8[i] §rRight-Click in hand to take ownership §r§8[i]\",\"color\":\"#BB00FF\"}','{\"text\":\"§8--------------------\"}','{\"text\":\"§8| §r§d+25% Incoming Healing §r§8|\"}','{\"text\":\"§8--------------------\"}']}}"
         }
     },
     "write2": {
@@ -92,7 +92,7 @@
         },
         "result": {
             "item": "minecraft:book",
-            "tag": "{fantasteamorigins_type:'experience',fantasteamorigins_owned:0,display:{Name:'{\"text\":\"Pact of Lust\",\"color\":\"#FF00E6\",\"bold\":false,\"italic\":false}',Lore:['{\"text\":\"§8[i] §rRight-Click in hand to take ownership §r§8[i]\",\"color\":\"#BB00FF\"}','{\"text\":\"§8---------------------\"}','{\"text\":\"§8| §r§d+100% Experience Gain §r§8|\"}','{\"text\":\"§8---------------------\"}']}}"
+            "tag": "{fantasteam_type:'experience',fantasteam_owned:0,display:{Name:'{\"text\":\"Pact of Lust\",\"color\":\"#FF00E6\",\"bold\":false,\"italic\":false}',Lore:['{\"text\":\"§8[i] §rRight-Click in hand to take ownership §r§8[i]\",\"color\":\"#BB00FF\"}','{\"text\":\"§8---------------------\"}','{\"text\":\"§8| §r§d+100% Experience Gain §r§8|\"}','{\"text\":\"§8---------------------\"}']}}"
         }
     },
     "write3": {
@@ -119,7 +119,7 @@
         },
         "result": {
             "item": "minecraft:book",
-            "tag": "{fantasteamorigins_type:'punishment',fantasteamorigins_owned:0,display:{Name:'{\"text\":\"Pact of Wrath\",\"color\":\"#FF00E6\",\"bold\":false,\"italic\":false}',Lore:['{\"text\":\"§8[i] §rRight-Click in hand to take ownership §r§8[i]\",\"color\":\"#BB00FF\"}','{\"text\":\"§8-----------------------------------------\"}','{\"text\":\"§8| §r§dYou will take damage when hurting the offerer §r§8|\"}','{\"text\":\"§8-----------------------------------------\"}']}}"
+            "tag": "{fantasteam_type:'punishment',fantasteam_owned:0,display:{Name:'{\"text\":\"Pact of Wrath\",\"color\":\"#FF00E6\",\"bold\":false,\"italic\":false}',Lore:['{\"text\":\"§8[i] §rRight-Click in hand to take ownership §r§8[i]\",\"color\":\"#BB00FF\"}','{\"text\":\"§8-----------------------------------------\"}','{\"text\":\"§8| §r§dYou will take damage when hurting the offerer §r§8|\"}','{\"text\":\"§8-----------------------------------------\"}']}}"
         }
     },
     "write4": {
@@ -146,7 +146,7 @@
         },
         "result": {
             "item": "minecraft:book",
-            "tag": "{fantasteamorigins_type:'summoning',fantasteamorigins_owned:0,display:{Name:'{\"text\":\"Pact of Greed\",\"color\":\"#FF00E6\",\"bold\":false,\"italic\":false}',Lore:['{\"text\":\"§8[i] §rRight-Click in hand to take ownership §r§8[i]\",\"color\":\"#BB00FF\"}','{\"text\":\"§8----------------------------------------\"}','{\"text\":\"§8| §r§dYou can summon the offerer to your position §r§8|\"}','{\"text\":\"§8----------------------------------------\"}']}}"
+            "tag": "{fantasteam_type:'summoning',fantasteam_owned:0,display:{Name:'{\"text\":\"Pact of Greed\",\"color\":\"#FF00E6\",\"bold\":false,\"italic\":false}',Lore:['{\"text\":\"§8[i] §rRight-Click in hand to take ownership §r§8[i]\",\"color\":\"#BB00FF\"}','{\"text\":\"§8----------------------------------------\"}','{\"text\":\"§8| §r§dYou can summon the offerer to your position §r§8|\"}','{\"text\":\"§8----------------------------------------\"}']}}"
         }
     },
     "write5": {
@@ -173,7 +173,7 @@
         },
         "result": {
             "item": "minecraft:book",
-            "tag": "{fantasteamorigins_type:'hydrofire',fantasteamorigins_owned:0,display:{Name:'{\"text\":\"Pact of Pride\",\"color\":\"#FF00E6\",\"bold\":false,\"italic\":false}',Lore:['{\"text\":\"§8[i] §rRight-Click in hand to take ownership §r§8[i]\",\"color\":\"#BB00FF\"}','{\"text\":\"§8------------------------------------\"}','{\"text\":\"§8| §r§dYou become fire-immune but hydrophobic §r§8|\"}','{\"text\":\"§8------------------------------------\"}']}}"
+            "tag": "{fantasteam_type:'hydrofire',fantasteam_owned:0,display:{Name:'{\"text\":\"Pact of Pride\",\"color\":\"#FF00E6\",\"bold\":false,\"italic\":false}',Lore:['{\"text\":\"§8[i] §rRight-Click in hand to take ownership §r§8[i]\",\"color\":\"#BB00FF\"}','{\"text\":\"§8------------------------------------\"}','{\"text\":\"§8| §r§dYou become fire-immune but hydrophobic §r§8|\"}','{\"text\":\"§8------------------------------------\"}']}}"
         }
     },
     "write6": {
@@ -200,7 +200,7 @@
         },
         "result": {
             "item": "minecraft:book",
-            "tag": "{fantasteamorigins_type:'freeshooter',fantasteamorigins_owned:0,display:{Name:'{\"text\":\"Pact of Envy\",\"color\":\"#FF00E6\",\"bold\":false,\"italic\":false}',Lore:['{\"text\":\"§8[i] §rRight-Click in hand to take ownership §r§8[i]\",\"color\":\"#BB00FF\"}','{\"text\":\"§8---------------------------------------------\"}','{\"text\":\"§8| §r§dYour arrows hurt more but cost health to fire §r§8|\"}','{\"text\":\"§8---------------------------------------------\"}']}}"
+            "tag": "{fantasteam_type:'freeshooter',fantasteam_owned:0,display:{Name:'{\"text\":\"Pact of Envy\",\"color\":\"#FF00E6\",\"bold\":false,\"italic\":false}',Lore:['{\"text\":\"§8[i] §rRight-Click in hand to take ownership §r§8[i]\",\"color\":\"#BB00FF\"}','{\"text\":\"§8---------------------------------------------\"}','{\"text\":\"§8| §r§dYour arrows hurt more but cost health to fire §r§8|\"}','{\"text\":\"§8---------------------------------------------\"}']}}"
         }
     },
     "write7": {
@@ -227,7 +227,7 @@
         },
         "result": {
             "item": "minecraft:book",
-            "tag": "{fantasteamorigins_type:'sloth',fantasteamorigins_owned:0,display:{Name:'{\"text\":\"Pact of Sloth\",\"color\":\"#FF00E6\",\"bold\":false,\"italic\":false}',Lore:['{\"text\":\"§8[i] §rRight-Click in hand to take ownership §r§8[i]\",\"color\":\"#BB00FF\"}','{\"text\":\"§8---------------------------------------------\"}','{\"text\":\"§8| §r§dYou exhaust less, but heal less §r§8|\"}','{\"text\":\"§8---------------------------------------------\"}']}}"
+            "tag": "{fantasteam_type:'sloth',fantasteam_owned:0,display:{Name:'{\"text\":\"Pact of Sloth\",\"color\":\"#FF00E6\",\"bold\":false,\"italic\":false}',Lore:['{\"text\":\"§8[i] §rRight-Click in hand to take ownership §r§8[i]\",\"color\":\"#BB00FF\"}','{\"text\":\"§8---------------------------------------------\"}','{\"text\":\"§8| §r§dYou exhaust less, but heal less §r§8|\"}','{\"text\":\"§8---------------------------------------------\"}']}}"
         }
     }
 }

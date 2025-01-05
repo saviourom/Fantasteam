@@ -5,7 +5,7 @@
   "type": "origins:creative_flight",
   "condition": {
     "type": "origins:resource",
-    "resource": "fantasteamorigins:sun_thief/liquid_luck",
+    "resource": "fantasteam:sun_thief/liquid_luck",
     "comparison": ">",
     "compare_to": "100"
   }
@@ -26,7 +26,7 @@
     "interval": 1,
     "entity_action": {
       "type": "origins:change_resource",
-      "resource": "fantasteamorigins:sun_thief/liquid_luck",
+      "resource": "fantasteam:sun_thief/liquid_luck",
       "change": -1,
       "operation": "add"
     },

@@ -43,7 +43,7 @@
           "tag": "minecraft:fishes"
         },
         {
-          "tag": "fantasteamorigins:seafood"
+          "tag": "fantasteam:seafood"
         }
       ]
     }
@@ -60,7 +60,7 @@
       "type": "origins:ingredient",
       "ingredient": [
         {
-          "tag": "fantasteamorigins:lavafood"
+          "tag": "fantasteam:lavafood"
         }
       ]
     }
@@ -77,7 +77,7 @@
       "type": "origins:ingredient",
       "ingredient": [
         {
-          "tag": "fantasteamorigins:striderfood"
+          "tag": "fantasteam:striderfood"
         }
       ]
     }
