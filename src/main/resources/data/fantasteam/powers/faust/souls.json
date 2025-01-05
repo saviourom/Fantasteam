@@ -1,0 +1,30 @@
+{
+    "name": "Pendant of Servitude",
+    "description": "Your pendant provides vitality in exchange for §dSouls§r, increasing your max health by half a heart per §dSoul§r.",
+    "badges": [
+        {
+            "type": "origins:tooltip",
+            "sprite": "minecraft:textures/mob_effect/absorption.png",
+            "text": "§c§nLimited Capacity§r: You can only gain up to 9 hearts this way."
+        }
+    ],
+    "type": "origins:multiple",
+    "bar": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 18,
+        "hud_render": {
+            "should_render": false
+        },
+        "start_value": 0
+    },
+    "attr": {
+        "type": "origins:modify_attribute",
+        "attribute": "generic.max_health",
+        "modifier": {
+            "value": 0,
+            "resource": "*:*_bar",
+            "operation": "addition"
+        }
+    }
+}

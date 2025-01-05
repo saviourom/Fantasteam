@@ -1,0 +1,21 @@
+{
+  "type": "origins:modify_damage_taken",
+  "hidden": true,
+  "damage_condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:name",
+        "name": "magic"
+      },
+      {
+        "type": "origins:name",
+        "name": "magic.player"
+      }
+    ]
+  },
+  "modifier": {
+    "operation": "multiply_base",
+    "value": 1
+  }
+}

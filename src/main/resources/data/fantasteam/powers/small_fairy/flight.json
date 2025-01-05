@@ -1,0 +1,40 @@
+{
+  "type": "origins:multiple",
+  "flight": {
+    "type": "origins:creative_flight"
+  },
+  "air": {
+    "type": "origins:modify_break_speed",
+    "modifier": {
+      "operation": "multiply_total",
+      "value": 4
+    },
+    "condition": {
+      "type": "origins:on_block",
+      "inverted": true
+    }
+  },
+  "food": {
+    "type": "origins:exhaust",
+    "interval": 10,
+    "exhaustion": 0.25,
+    "condition": {
+      "type": "origins:creative_flying"
+    }
+  },
+  "use_dust": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:if_else",
+      "condition": {
+        "type": "origins:creative_flying"
+      },
+      "if_action": {
+        "type": "origins:change_resource",
+        "resource": "fantasteam:fairy/fairy_dust",
+        "change": -2
+      }
+    },
+    "interval": 1
+  }
+}

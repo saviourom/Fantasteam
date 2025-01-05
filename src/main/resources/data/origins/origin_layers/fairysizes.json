@@ -1,0 +1,71 @@
+{
+  "origins": [
+    {
+      "origins": [
+        "fantasteam:small_fairy"
+      ],
+      "condition":{
+      "type": "origins:and",
+      "conditions":
+      [
+        {
+          "type": "origins:resource",
+          "resource": "fantasteam:fairy/fairy_dust",
+          "comparison": ">",
+          "compare_to": 1
+        },
+        {
+          "type": "origins:origin",
+          "origin": "fantasteam:large_fairy",
+          "inverted": true
+        }
+      ]
+      }
+    },
+    {
+      "origins": [
+        "fantasteam:fairy_normal"
+      ],
+      "condition":{
+        "type": "origins:and",
+        "conditions":
+        [
+          {
+            "type": "origins:origin",
+            "origin": "fantasteam:large_fairy",
+            "inverted": true
+          },
+          {
+            "type": "origins:origin",
+            "origin": "fantasteam:small_fairy",
+            "inverted": true
+          }
+        ]
+      }
+    },
+    {
+      "origins": [
+        "fantasteam:large_fairy"
+      ],
+      "condition":{
+        "type": "origins:and",
+        "conditions":
+        [
+          {
+            "type": "origins:resource",
+            "resource": "fantasteam:fairy/fairy_dust",
+            "comparison": ">",
+            "compare_to": 1
+          },
+          {
+            "type": "origins:origin",
+            "origin": "fantasteam:small_fairy",
+            "inverted": true
+          }
+        ]
+      }
+    }
+  ],
+  "name": "size.",
+  "enabled": false
+}

@@ -1,0 +1,45 @@
+{
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:strength",
+          "duration": 2400,
+          "amplifier": 1,
+          "is_ambient": true,
+          "show_particles": true,
+          "show_icon": true
+        }
+      },
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:speed",
+          "duration": 2400,
+          "amplifier": 1,
+          "is_ambient": true,
+          "show_particles": true,
+          "show_icon": true
+        }
+      }
+    ]
+  },
+  "cooldown": 3000,
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+    "bar_index": 22
+  },
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": true
+  },
+  "condition": {
+    "type": "origins:relative_health",
+    "comparison": "<=",
+    "compare_to": 0.5
+      }
+    }

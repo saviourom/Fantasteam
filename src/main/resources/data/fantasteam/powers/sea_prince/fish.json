@@ -1,0 +1,79 @@
+{
+  "type": "origins:multiple",
+
+  "breahte": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:gain_air",
+      "value": 40
+    },
+    "interval": 10
+  },
+
+  "tail": {
+    "type": "mermod:tail_style",
+    "tailColor": 9267018,
+    "hasBra": false,
+    "braColor": 16777215,
+    "hasGradient": false,
+    "gradientColor": 16777215,
+    "hasGlint": true,
+    "texture": "mermod:textures/tail/tail.png"
+  },
+
+  "swim": {
+    "type": "origins:modify_swim_speed",
+    "modifier": {
+      "operation": "addition",
+      "value": 0.030
+    }
+  },
+
+  "camera": {
+    "type": "origins:modify_camera_submersion",
+    "from": "water",
+    "to": "none"
+  },
+
+  "sight": {
+    "type": "origins:night_vision",
+    "strength": 0.5,
+    "condition": {
+      "type": "origins:submerged_in",
+      "fluid": "minecraft:water"
+    }
+  },
+  "dry1": {
+    "condition": {
+      "type": "origins:and",
+      "conditions":
+      [
+        {
+      "type": "origins:fluid_height",
+      "fluid": "minecraft:water",
+      "comparison": "==",
+      "compare_to": 0
+        },
+        {
+          "inverted": true,
+          "type": "origins:submerged_in",
+          "fluid": "minecraft:water"
+        }
+      ]
+    },
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 3,
+    "duration_per_stack": 10,
+    "tick_rate": 15,
+    "effect": {
+      "effect": "minecraft:slowness",
+      "duration": 35,
+      "amplifier": 2,
+      "show_particles": false,
+      "show_icon": false,
+      "is_ambient": true
+    }
+  }
+
+}

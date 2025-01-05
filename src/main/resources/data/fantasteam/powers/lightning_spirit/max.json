@@ -1,0 +1,26 @@
+{
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:spawn_particles",
+    "particle": {
+      "type": "minecraft:electric_spark"
+    },
+    "count": 16,
+    "speed": 0.5,
+    "force": true,
+    "spread": {
+      "x": 1.0,
+      "y": 0.5,
+      "z": 1.0
+    },
+    "duration": 2
+  },
+  "interval": 20,
+  "condition": {
+    "type": "origins:resource",
+    "resource": "fantasteam:lightning_spirit/resource",
+    "comparison": "==",
+    "compare_to": 700
+  },
+  "hidden": true
+}
