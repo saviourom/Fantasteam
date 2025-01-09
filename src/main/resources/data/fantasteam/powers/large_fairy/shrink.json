@@ -1,0 +1,14 @@
+{
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "origin set @s origins:fairysizes fantasteam:fairy_normal"
+  },
+  "cooldown": 1,
+  "condition": {
+    "type": "origins:sneaking"
+  },
+  "hud_render": {
+    "should_render": false
+  }
+}

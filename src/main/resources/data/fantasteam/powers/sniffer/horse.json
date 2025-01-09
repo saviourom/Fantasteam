@@ -1,0 +1,8 @@
+{
+  "type": "apugli:modify_scale",
+  "scale_type": "pehkui:step_height",
+  "modifiers": {
+    "operation": "set_total",
+    "value": 2
+  }
+}

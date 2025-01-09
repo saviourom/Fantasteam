@@ -1,0 +1,22 @@
+{
+  "type": "origins:multiple",
+
+  "weak": {
+    "type": "origins:attribute",
+    "modifier": {
+      "attribute": "generic.attack_damage",
+      "operation": "multiply_base",
+      "value": -0.5
+    }
+  },
+  "frail": {
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+      "type": "origins:attacker"
+    },
+    "modifier": {
+      "operation": "multiply_base",
+      "value": 0.5
+    }
+  }
+}

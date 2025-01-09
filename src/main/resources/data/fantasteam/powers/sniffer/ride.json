@@ -1,0 +1,19 @@
+{
+  "type": "origins:action_on_being_used",
+  "bientity_action": {
+    "type": "origins:mount"
+  },
+  "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+      "item": "minecraft:saddle"
+    }
+  },
+  "bientity_condition": {
+    "type": "origins:target_condition",
+    "condition": {
+      "type": "origins:passenger",
+      "inverted": true
+    }
+  }
+}

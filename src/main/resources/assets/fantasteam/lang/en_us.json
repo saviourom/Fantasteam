@@ -1,0 +1,85 @@
+{
+  "creativetab.pancake_tab": "Pancake's creative Tab",
+
+  "item.fantasteam.solid_luck": "Solidified Luck",
+  "item.fantasteam.solid_luck.description": "The power of the sun, in the palm of my hands.",
+
+  "origin.fantasteam.wind_princess.name": "Princess of Wind",
+  "origin.fantasteam.wind_princess.description": "The descendant of the princess of the valley of the wind. A compassionate ruler of a land in a world of turmoil and poisons, always free in the wind and knowledgeable of the world's toxins.",
+
+  "origin.fantasteam.bear_knight.name":"Bear Knight",
+  "origin.fantasteam.bear_knight.description": "A bear that has been knighted!",
+
+  "origin.fantasteam.lightning_spirit.name": "Lightning Spirit",
+  "origin.fantasteam.lightning_spirit.description": "Dumbass fuckin lightning bitch",
+
+  "origin.fantasteam.sun_thief.name": "Sun Thief",
+  "origin.fantasteam.sun_thief.description": "A hot blooded pirate who managed to steal the Essense of the sun itself.",
+
+  "origin.fantasteam.sniffer.name": "Sniffer Kin",
+  "origin.fantasteam.sniffer.description": "To be decided",
+
+  "origin.fantasteam.sea_prince.name": "Prince of the sea",
+  "origin.fantasteam.sea_prince.description": "To be decided",
+
+  "origin.fantasteam.vastayan.name": "Vastayan",
+  "origin.fantasteam.vastayan.description": "To be decided",
+
+  "origin.fantasteam.kirby.name": "Kirby",
+  "origin.fantasteam.kirby.description": "Kirby huuuuuungry",
+
+  "origin.fantasteam.experiment_13.name": "Experiment 13",
+  "origin.fantasteam.experiment_13.description": "Experiment 13 was created when a curious biologist was determined to see if they could make a walking plant, not through automation means but a biologically walking plant. Thus after many failed experiments a cat and plant hybrid was created.",
+
+  "power.fantasteam.wind_princess/poison.name": "Poison resistance",
+  "power.fantasteam.wind_princess/poison.description": "Due to your past you are more resistant to poisons and other evil magicks.",
+
+  "power.fantasteam.wind_princess/weak.name": "Soft serve",
+  "power.fantasteam.wind_princess/weak.description": "You take more damage from being hit.",
+
+  "power.fantasteam.wind_princess/pglider.name": "Princess' Glider",
+  "power.fantasteam.wind_princess/pglider.description": "The princess' trusty glider! Helps you get to and fro but make sure you have a running start",
+
+  "power.fantasteam.wind_princess/tamable.name": "Befriend",
+  "power.fantasteam.wind_princess/tamable.description": "Due to your passive nature you make friends very easily!",
+
+  "power.fantasteam.wind_princess/friend.name": "Royalty",
+  "power.fantasteam.wind_princess/friend.description": "Due to your royal status every mob is passive to you, however you must not show weakness, or the more hostile ones will strike (when less than max health hostile mobs will attack)",
+
+  "power.fantasteam.bear_knight/magicks.name": "Just a Bear",
+  "power.fantasteam.bear_knight/magicks.description": "You are just a bear after all, you take more magic damage.",
+
+  "power.fantasteam.bear_knight/rage.name": "Ursa Rage.",
+  "power.fantasteam.bear_knight/rage.description": "When low on health you can channel your wild nature to go into a rage gaining speed 2 and strength 2 for 2 minutes.",
+
+  "power.fantasteam.bear_knight/hpunch.name": "Honey Punch!",
+  "power.fantasteam.bear_knight/hpunch.description": "Coat your weapon in honey and attack, causing the enemy to be slowed.",
+
+  "power.fantasteam.bear_knight/hungry.name": "Bear Appetite",
+  "power.fantasteam.bear_knight/hungry.description": "You are so big and strong you need ALOT more food to be sustained.",
+
+  "power.fantasteam.bear_knight/knight_armor.name":"Knight's Armor",
+  "power.fantasteam.bear_knight/knight_armor.description": "You permanently have extra armor bars passively, a good night is a protected knight.",
+
+  "power.fantasteam.bear_knight/tall.name": "Big guy",
+  "power.fantasteam.bear_knight/tall.description": "You are a big guy! better crouch if you wanna get into small houses.",
+
+  "power.fantasteam.lightning_spirit/tp.name": "Blink",
+  "power.fantasteam.lightning_spirit/tp.description": "Use one charge of your bar to teleport wherever or to whoever you are looking at.",
+
+  "power.fantasteam.lightning_spirit/lightning.name": "Spark",
+  "power.fantasteam.lightning_spirit/lightning.description": "Upon pressing your secondary ability button you can send out a small charge which deals more damage depending on your charge, when at max charge it turns into a bolt of lightning.",
+
+  "power.fantasteam.lightning_spirit/still.name": "Discharge",
+  "power.fantasteam.lightning_spirit/still.description": "Standing still causes you to slowly lose the built up charge you've gained.",
+
+  "power.fantasteam.lightning_spirit/move.name": "Charge",
+  "power.fantasteam.lightning_spirit/move.description": "Moving around allows you to store kinetic energy in a charge, these charges can be used for various passive and active abilities.",
+
+  "power.fantasteam.lightning_spirit/modes.name": "Modes",
+  "power.fantasteam.lightning_spirit/modes.description": "Gain passive buffs when reaching certain thresholds in your charge meter.",
+
+  "power.fantasteam.lightning_spirit/downsides.name": "Spiritual Body",
+  "power.fantasteam.lightning_spirit/downsides.description": "Due to your body you discharge in water, meaning you not only take damage but rapidly lose charge. Along with this due to all your energy you need to eat a lot more then a normal person."
+
+}

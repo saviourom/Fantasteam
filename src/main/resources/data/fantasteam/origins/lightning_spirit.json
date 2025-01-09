@@ -1,0 +1,16 @@
+{
+  "powers": [
+    "fantasteam:lightning_spirit/charge",
+    "fantasteam:lightning_spirit/max",
+    "fantasteam:lightning_spirit/tp",
+    "fantasteam:lightning_spirit/move",
+    "fantasteam:lightning_spirit/modes",
+    "fantasteam:lightning_spirit/still",
+    "fantasteam:lightning_spirit/lightning",
+    "fantasteam:lightning_spirit/resource",
+    "fantasteam:lightning_spirit/downsides"
+  ],
+  "icon": "minecraft:lightning_rod",
+  "impact": 3,
+  "order": 1
+}

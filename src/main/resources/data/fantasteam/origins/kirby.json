@@ -1,0 +1,18 @@
+{
+  "powers": [
+    "fantasteam:kirby/damage",
+    "fantasteam:kirby/fooda",
+    "fantasteam:kirby/small2",
+    "fantasteam:kirby/small",
+    "fantasteam:kirby/suck",
+    "fantasteam:kirby/airpuff",
+    "fantasteam:kirby/airpuff2",
+    "fantasteam:kirby/airjump",
+    "fantasteam:kirby/hungry",
+    "fantasteam:kirby/air",
+    "fantasteam:kirby/fall"
+  ],
+  "icon": "minecraft:pink_wool",
+  "impact": 1,
+  "order": 1
+}

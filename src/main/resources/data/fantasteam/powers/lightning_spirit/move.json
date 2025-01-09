@@ -1,0 +1,27 @@
+{
+  "type": "origins:action_over_time",
+  "interval": 1,
+  "entity_action": {
+    "type": "origins:change_resource",
+    "resource": "fantasteam:lightning_spirit/resource",
+    "change": 1,
+    "operation": "add"
+  },
+  "condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:climbing"
+      },
+      {
+        "type": "origins:sneaking"
+      },
+      {
+        "type": "origins:sprinting"
+      },
+      {
+        "type": "origins:moving"
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "fantasteam:sun_thief/flight",
+    "fantasteam:sun_thief/steal",
+    "fantasteam:sun_thief/liquid_luck",
+    "fantasteam:sun_thief/wings"
+  ],
+  "icon": "fantasteam:solid_luck",
+  "impact": 3,
+  "order": 1
+}

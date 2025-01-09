@@ -1,0 +1,233 @@
+{
+    "name": "Devil's Quill",
+    "description": "You can write §cPacts§r that players can sign for benefits, in exchange for their §dSouls§r.",
+    "badges": [
+        {
+            "type": "origins:tooltip",
+            "sprite": "origins:textures/gui/badge/active.png",
+            "text": "§c§nDemonic Will§r: You can click an item on a book and quill in your inventory to create a §cPact§r."
+        },
+        {
+            "type": "origins:tooltip",
+            "sprite": "minecraft:textures/item/book.png",
+            "text": "§c§nCodex Gigas§r: You spawn with a book detailing the available §cPacts§r."
+        }
+    ],
+    "type": "origins:multiple",
+    "gigas": {
+        "type": "origins:action_on_callback",
+        "entity_action_chosen": {
+            "type": "origins:execute_command",
+            "command": "function fantasteam:give_book"
+        }
+    },
+    "sign": {
+        "type": "origins:active_self",
+        "key": "key.use",
+        "entity_action": {
+            "type": "origins:delay",
+            "ticks": 1,
+            "action": {
+                "type": "origins:execute_command",
+                "command": "function fantasteam:pacts/take_ownership"
+            }
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:nbt",
+                "nbt": "{fantasteam_owned:0}"
+            }
+        }
+    },
+    "write1": {
+        "type": "origins:item_on_item",
+        "using_item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:golden_apple"
+            }
+        },
+        "on_item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:writable_book"
+            }
+        },
+        "on_item_action": {
+            "type": "origins:consume",
+            "amount": 1
+        },
+        "using_item_action": {
+            "type": "origins:consume",
+            "amount": 1
+        },
+        "result": {
+            "item": "minecraft:book",
+            "tag": "{fantasteam_type:'vitality',fantasteam_owned:0,display:{Name:'{\"text\":\"Pact of Gluttony\",\"color\":\"#FF00E6\",\"bold\":false,\"italic\":false}',Lore:['{\"text\":\"§8[i] §rRight-Click in hand to take ownership §r§8[i]\",\"color\":\"#BB00FF\"}','{\"text\":\"§8--------------------\"}','{\"text\":\"§8| §r§d+25% Incoming Healing §r§8|\"}','{\"text\":\"§8--------------------\"}']}}"
+        }
+    },
+    "write2": {
+        "type": "origins:item_on_item",
+        "using_item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:enchanted_book"
+            }
+        },
+        "on_item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:writable_book"
+            }
+        },
+        "on_item_action": {
+            "type": "origins:consume",
+            "amount": 1
+        },
+        "using_item_action": {
+            "type": "origins:consume",
+            "amount": 1
+        },
+        "result": {
+            "item": "minecraft:book",
+            "tag": "{fantasteam_type:'experience',fantasteam_owned:0,display:{Name:'{\"text\":\"Pact of Lust\",\"color\":\"#FF00E6\",\"bold\":false,\"italic\":false}',Lore:['{\"text\":\"§8[i] §rRight-Click in hand to take ownership §r§8[i]\",\"color\":\"#BB00FF\"}','{\"text\":\"§8---------------------\"}','{\"text\":\"§8| §r§d+100% Experience Gain §r§8|\"}','{\"text\":\"§8---------------------\"}']}}"
+        }
+    },
+    "write3": {
+        "type": "origins:item_on_item",
+        "using_item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:blaze_rod"
+            }
+        },
+        "on_item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:writable_book"
+            }
+        },
+        "on_item_action": {
+            "type": "origins:consume",
+            "amount": 1
+        },
+        "using_item_action": {
+            "type": "origins:consume",
+            "amount": 1
+        },
+        "result": {
+            "item": "minecraft:book",
+            "tag": "{fantasteam_type:'punishment',fantasteam_owned:0,display:{Name:'{\"text\":\"Pact of Wrath\",\"color\":\"#FF00E6\",\"bold\":false,\"italic\":false}',Lore:['{\"text\":\"§8[i] §rRight-Click in hand to take ownership §r§8[i]\",\"color\":\"#BB00FF\"}','{\"text\":\"§8-----------------------------------------\"}','{\"text\":\"§8| §r§dYou will take damage when hurting the offerer §r§8|\"}','{\"text\":\"§8-----------------------------------------\"}']}}"
+        }
+    },
+    "write4": {
+        "type": "origins:item_on_item",
+        "using_item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:ender_eye"
+            }
+        },
+        "on_item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:writable_book"
+            }
+        },
+        "on_item_action": {
+            "type": "origins:consume",
+            "amount": 1
+        },
+        "using_item_action": {
+            "type": "origins:consume",
+            "amount": 1
+        },
+        "result": {
+            "item": "minecraft:book",
+            "tag": "{fantasteam_type:'summoning',fantasteam_owned:0,display:{Name:'{\"text\":\"Pact of Greed\",\"color\":\"#FF00E6\",\"bold\":false,\"italic\":false}',Lore:['{\"text\":\"§8[i] §rRight-Click in hand to take ownership §r§8[i]\",\"color\":\"#BB00FF\"}','{\"text\":\"§8----------------------------------------\"}','{\"text\":\"§8| §r§dYou can summon the offerer to your position §r§8|\"}','{\"text\":\"§8----------------------------------------\"}']}}"
+        }
+    },
+    "write5": {
+        "type": "origins:item_on_item",
+        "using_item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:lava_bucket"
+            }
+        },
+        "on_item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:writable_book"
+            }
+        },
+        "on_item_action": {
+            "type": "origins:consume",
+            "amount": 1
+        },
+        "using_item_action": {
+            "type": "origins:consume",
+            "amount": 1
+        },
+        "result": {
+            "item": "minecraft:book",
+            "tag": "{fantasteam_type:'hydrofire',fantasteam_owned:0,display:{Name:'{\"text\":\"Pact of Pride\",\"color\":\"#FF00E6\",\"bold\":false,\"italic\":false}',Lore:['{\"text\":\"§8[i] §rRight-Click in hand to take ownership §r§8[i]\",\"color\":\"#BB00FF\"}','{\"text\":\"§8------------------------------------\"}','{\"text\":\"§8| §r§dYou become fire-immune but hydrophobic §r§8|\"}','{\"text\":\"§8------------------------------------\"}']}}"
+        }
+    },
+    "write6": {
+        "type": "origins:item_on_item",
+        "using_item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:spectral_arrow"
+            }
+        },
+        "on_item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:writable_book"
+            }
+        },
+        "on_item_action": {
+            "type": "origins:consume",
+            "amount": 1
+        },
+        "using_item_action": {
+            "type": "origins:consume",
+            "amount": 1
+        },
+        "result": {
+            "item": "minecraft:book",
+            "tag": "{fantasteam_type:'freeshooter',fantasteam_owned:0,display:{Name:'{\"text\":\"Pact of Envy\",\"color\":\"#FF00E6\",\"bold\":false,\"italic\":false}',Lore:['{\"text\":\"§8[i] §rRight-Click in hand to take ownership §r§8[i]\",\"color\":\"#BB00FF\"}','{\"text\":\"§8---------------------------------------------\"}','{\"text\":\"§8| §r§dYour arrows hurt more but cost health to fire §r§8|\"}','{\"text\":\"§8---------------------------------------------\"}']}}"
+        }
+    },
+    "write7": {
+        "type": "origins:item_on_item",
+        "using_item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:ghast_tear"
+            }
+        },
+        "on_item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:writable_book"
+            }
+        },
+        "on_item_action": {
+            "type": "origins:consume",
+            "amount": 1
+        },
+        "using_item_action": {
+            "type": "origins:consume",
+            "amount": 1
+        },
+        "result": {
+            "item": "minecraft:book",
+            "tag": "{fantasteam_type:'sloth',fantasteam_owned:0,display:{Name:'{\"text\":\"Pact of Sloth\",\"color\":\"#FF00E6\",\"bold\":false,\"italic\":false}',Lore:['{\"text\":\"§8[i] §rRight-Click in hand to take ownership §r§8[i]\",\"color\":\"#BB00FF\"}','{\"text\":\"§8---------------------------------------------\"}','{\"text\":\"§8| §r§dYou exhaust less, but heal less §r§8|\"}','{\"text\":\"§8---------------------------------------------\"}']}}"
+        }
+    }
+}

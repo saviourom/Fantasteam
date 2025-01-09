@@ -1,0 +1,13 @@
+{
+  "powers": [
+    "fantasteam:fairy/fairy_dust",
+    "fantasteam:fairy/gain_dust",
+    "fantasteam:fairy/wings",
+    "fantasteam:fairy/shrink",
+    "fantasteam:fairy/grow",
+    "fantasteam:fairy/normal_size"
+  ],
+  "icon": "fantasteam:solid_luck",
+  "impact": 3,
+  "order": 1
+}
