@@ -1,16 +1,14 @@
 package org.pancake.fantasteam.entities;
 
-import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.projectile.ThrowableItemProjectile;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ItemCooldowns;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.phys.EntityHitResult;
 import net.minecraft.world.phys.HitResult;
-import org.pancake.fantasteam.item.ModItems;
+import org.pancake.fantasteam.registries.ModEntities;
+import org.pancake.fantasteam.registries.ModItems;
 
 public class FeatherProjectile extends ThrowableItemProjectile {
     public FeatherProjectile(EntityType<FeatherProjectile> pEntityType, Level pLevel) {

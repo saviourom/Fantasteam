@@ -1,4 +1,4 @@
-package org.pancake.fantasteam.item;
+package org.pancake.fantasteam.registries;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -10,10 +10,10 @@ import net.minecraftforge.registries.RegistryObject;
 import org.pancake.fantasteam.Fantasteam;
 
 public class ModCreativeModeTabs {
-    public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
+    public static final DeferredRegister<CreativeModeTab> REGISTRY =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, Fantasteam.MODID);
 
-    public static final RegistryObject<CreativeModeTab> PANCAKE_TAB = CREATIVE_MODE_TABS.register("pancake_tab",
+    public static final RegistryObject<CreativeModeTab> PANCAKE_TAB = REGISTRY.register("pancake_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SOLID_LUCK.get()))
                     .title(Component.translatable("creativetab.pancake_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
@@ -25,6 +25,6 @@ public class ModCreativeModeTabs {
                     .build());
 
     public static void register(IEventBus eventBus) {
-        CREATIVE_MODE_TABS.register(eventBus);
+        REGISTRY.register(eventBus);
     }
 }
