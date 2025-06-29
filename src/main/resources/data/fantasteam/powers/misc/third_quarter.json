@@ -1,0 +1,16 @@
+{
+  "type": "origins:action_on_callback",
+  "entity_action_gained": {
+    "type": "origins:change_resource",
+    "resource": "fantasteam:moth/moonbar",
+    "change": 7,
+    "operation": "set"
+  },
+  "entity_action_lost": {
+    "type": "origins:change_resource",
+    "resource": "fantasteam:moth/moonbar",
+    "change": 0,
+    "operation": "set"
+  },
+  "execute_chosen_when_orb": false
+}

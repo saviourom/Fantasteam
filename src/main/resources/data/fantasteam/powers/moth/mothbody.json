@@ -1,0 +1,78 @@
+{
+  "type": "origins:multiple",
+
+  "falldmg": {
+    "type": "origins:modify_falling",
+    "velocity": 0.04,
+    "take_fall_damage": false
+  },
+
+  "health": {
+    "type": "origins:attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.max_health",
+      "value": -6,
+      "operation": "addition"
+    }
+  },
+
+  "nightvision": {
+    "type": "origins:night_vision",
+    "condition": {
+      "type": "origins:daytime",
+      "inverted": true
+    }
+  },
+
+  "tinyfury": {
+    "type": "origins:attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.attack_speed",
+      "value": 2,
+      "operation": "addition"
+    }
+  },
+
+  "climb": {
+  "type": "origins:climbing",
+  "condition": {
+    "type": "origins:collided_horizontally"
+  },
+    "allow_holding": true,
+    "hold_condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:block_collision",
+          "offset_x": 0.01,
+          "offset_y": 0,
+          "offset_z": 0.01
+        },
+        {
+          "type": "origins:block_collision",
+          "offset_x": -0.01,
+          "offset_y": 0,
+          "offset_z": -0.01
+        }
+      ]
+    }
+  },
+
+  "hungry": {
+    "type": "origins:modify_exhaustion",
+    "modifier": {
+      "name": "Increased exhaustion",
+      "operation": "multiply_base",
+      "value": 2.0
+    }
+  },
+
+  "swim": {
+    "type": "origins:prevent_sprinting",
+    "condition": {
+      "type": "origins:submerged_in",
+      "fluid": "minecraft:water"
+    }
+  }
+
+}

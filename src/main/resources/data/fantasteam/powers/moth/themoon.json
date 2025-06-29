@@ -1,0 +1,179 @@
+{
+  "type": "origins:multiple",
+
+  "new_moon": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:if_else",
+      "condition": {
+        "type": "origins:predicate",
+        "predicate": "fantasteam:moon_at_night/is_new_moon"
+      },
+      "if_action": {
+        "type": "origins:grant_power",
+        "power": "fantasteam:misc/new_moon",
+        "source": "fantasteam:misc"
+      },
+      "else_action": {
+        "type": "origins:revoke_power",
+        "power": "fantasteam:misc/new_moon",
+        "source": "fantasteam:misc"
+      }
+    },
+    "interval": 1
+  },
+
+  "waxing_crescent": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:if_else",
+      "condition": {
+        "type": "origins:predicate",
+        "predicate": "fantasteam:moon_at_night/is_waxing_crescent"
+      },
+      "if_action": {
+        "type": "origins:grant_power",
+        "power": "fantasteam:misc/waxing_crescent",
+        "source": "fantasteam:misc"
+      },
+      "else_action": {
+        "type": "origins:revoke_power",
+        "power": "fantasteam:misc/waxing_crescent",
+        "source": "fantasteam:misc"
+      }
+    },
+    "interval": 1
+  },
+
+  "first_quarter": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:if_else",
+      "condition": {
+        "type": "origins:predicate",
+        "predicate": "fantasteam:moon_at_night/is_first_quarter"
+      },
+      "if_action": {
+        "type": "origins:grant_power",
+        "power": "fantasteam:misc/first_quarter",
+        "source": "fantasteam:misc"
+      },
+      "else_action": {
+        "type": "origins:revoke_power",
+        "power": "fantasteam:misc/first_quarter",
+        "source": "fantasteam:misc"
+      }
+    },
+    "interval": 1
+  },
+
+  "waxing_gibbous": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:if_else",
+      "condition": {
+        "type": "origins:predicate",
+        "predicate": "fantasteam:moon_at_night/is_waxing_gibbous"
+      },
+      "if_action": {
+        "type": "origins:grant_power",
+        "power": "fantasteam:misc/waxing_gibbous",
+        "source": "fantasteam:misc"
+      },
+      "else_action": {
+        "type": "origins:revoke_power",
+        "power": "fantasteam:misc/waxing_gibbous",
+        "source": "fantasteam:misc"
+      }
+    },
+    "interval": 1
+  },
+
+  "full_moon": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:if_else",
+      "condition": {
+        "type": "origins:predicate",
+        "predicate": "fantasteam:moon_at_night/is_full_moon"
+      },
+      "if_action": {
+        "type": "origins:grant_power",
+        "power": "fantasteam:misc/full_moon",
+        "source": "fantasteam:misc"
+      },
+      "else_action": {
+        "type": "origins:revoke_power",
+        "power": "fantasteam:misc/full_moon",
+        "source": "fantasteam:misc"
+      }
+    },
+    "interval": 1
+  },
+
+  "waning_gibbous": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:if_else",
+      "condition": {
+        "type": "origins:predicate",
+        "predicate": "fantasteam:moon_at_night/is_waning_gibbous"
+      },
+      "if_action": {
+        "type": "origins:grant_power",
+        "power": "fantasteam:misc/waning_gibbous",
+        "source": "fantasteam:misc"
+      },
+      "else_action": {
+        "type": "origins:revoke_power",
+        "power": "fantasteam:misc/waning_gibbous",
+        "source": "fantasteam:misc"
+      }
+    },
+    "interval": 1
+  },
+
+  "third_quarter": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:if_else",
+      "condition": {
+        "type": "origins:predicate",
+        "predicate": "fantasteam:moon_at_night/is_third_quarter"
+      },
+      "if_action": {
+        "type": "origins:grant_power",
+        "power": "fantasteam:misc/third_quarter",
+        "source": "fantasteam:misc"
+      },
+      "else_action": {
+        "type": "origins:revoke_power",
+        "power": "fantasteam:misc/third_quarter",
+        "source": "fantasteam:misc"
+      }
+    },
+    "interval": 1
+  },
+
+  "waning_crescent": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:if_else",
+      "condition": {
+        "type": "origins:predicate",
+        "predicate": "fantasteam:moon_at_night/is_waning_crescent"
+      },
+      "if_action": {
+        "type": "origins:grant_power",
+        "power": "fantasteam:misc/waning_crescent",
+        "source": "fantasteam:misc"
+      },
+      "else_action": {
+        "type": "origins:revoke_power",
+        "power": "fantasteam:misc/waning_crescent",
+        "source": "fantasteam:misc"
+      }
+    },
+    "interval": 1
+  }
+}

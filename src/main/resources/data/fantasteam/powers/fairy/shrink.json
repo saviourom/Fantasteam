@@ -11,7 +11,7 @@
             "type": "origins:resource",
             "resource": "fantasteam:fairy/fairy_dust",
             "comparison": ">",
-            "compare_to": 1
+            "compare_to": 2
           },
           {
             "type": "origins:origin",

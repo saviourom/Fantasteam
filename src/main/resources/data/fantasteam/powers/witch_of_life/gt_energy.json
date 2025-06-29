@@ -1,0 +1,13 @@
+{
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:change_resource",
+    "resource": "fantasteam:sea_prince/witch_energy",
+    "change": -1
+  },
+  "interval": 1,
+  "condition": {
+    "type": "origins:origin",
+    "origin": "fantasteam:witch_of_life"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "origins": [
+    {
+      "origins": [
+        "fantasteam:un_godtiered"
+      ],
+      "condition":{
+        "type": "origins:and",
+        "conditions":
+        [
+          {
+            "type": "origins:origin",
+            "origin": "fantasteam:witch_of_life",
+            "inverted": true
+          },
+          {
+            "type": "origins:origin",
+            "origin": "fantasteam:thief_of_life",
+            "inverted": true
+          }
+        ]
+      }
+    },
+    {
+      "origins": [
+        "fantasteam:thief_of_life"
+      ],
+      "condition":{
+        "type": "origins:and",
+        "conditions":
+        [
+          {
+            "type": "origins:origin",
+            "origin": "fantasteam:witch_of_life",
+            "inverted": true
+          },
+          {
+            "type": "origins:resource",
+            "resource": "fantasteam:sea_prince/thief_energy",
+            "comparison": ">",
+            "compare_to": 1
+          }
+        ]
+      }
+    },
+    {
+      "origins": [
+        "fantasteam:witch_of_life"
+      ],
+      "condition":{
+        "type": "origins:and",
+        "conditions":
+        [
+          {
+            "type": "origins:origin",
+            "origin": "fantasteam:thief_of_life",
+            "inverted": true
+          },
+          {
+            "type": "origins:resource",
+            "resource": "fantasteam:sea_prince/witch_energy",
+            "comparison": ">",
+            "compare_to": 1
+          }
+        ]
+      }
+    }
+  ],
+  "name": "godtier.",
+  "enabled": false
+}

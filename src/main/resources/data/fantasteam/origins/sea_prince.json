@@ -1,6 +1,11 @@
 {
   "powers": [
-    "fantasteam:sea_prince/fish"
+    "fantasteam:sea_prince/fish",
+    "fantasteam:sea_prince/thief_energy",
+    "fantasteam:sea_prince/witch_energy",
+    "fantasteam:sea_prince/charge_energy",
+    "fantasteam:sea_prince/dry_skin"
+
   ],
   "icon": "minecraft:cod",
   "impact": 1,

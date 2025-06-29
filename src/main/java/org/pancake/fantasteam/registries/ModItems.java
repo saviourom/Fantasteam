@@ -15,6 +15,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> SOLID_LUCK = REGISTRY.register("solid_luck",
             () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> LUNAR_LAMP = REGISTRY.register("lunar_lamp",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> VASTAYAN_FEATHER = REGISTRY.register("vastayan_feather",
             () -> new FeatherItem(new Item.Properties()));
 

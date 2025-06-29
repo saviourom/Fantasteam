@@ -163,8 +163,22 @@ dependencies {
     // compileOnly fg.deobf("mezz.jei:jei-${mc_version}-forge-api:${jei_version}")
     // runtimeOnly fg.deobf("mezz.jei:jei-${mc_version}-forge:${jei_version}")
 
-    implementation fg.deobf("curse.maven:origins-474438:5314209")
+    implementation fg.deobf("curse.maven:architectury-419699:5137938")
     implementation fg.deobf("curse.maven:caelus-308989:5281700")
+    implementation fg.deobf("curse.maven:curios-309927:5680164")
+    implementation fg.deobf("curse.maven:commonnetworking-806044:5486134")
+    implementation fg.deobf("curse.maven:resourcefulconfig-714059:5020441")
+
+    implementation fg.deobf("curse.maven:origins-474438:5314209")
+    implementation fg.deobf("curse.maven:Icarus-428151:5741654")
+    implementation fg.deobf("curse.maven:IcarusOrigin-1001139:5284802")
+    implementation fg.deobf("curse.maven:mermod-709092:5583496")
+
+
+    implementation fg.deobf("curse.maven:Pehkui-319596:5393101")
+    implementation fg.deobf("curse.maven:Apugli-579886:5635683")
+
+
 
     // Example mod dependency using a mod jar from ./libs with a flat dir repository
     // This maps to ./libs/coolmod-${mc_version}-${coolmod_version}.jar

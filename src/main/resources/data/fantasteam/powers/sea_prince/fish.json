@@ -43,6 +43,7 @@
       "fluid": "minecraft:water"
     }
   },
+
   "dry1": {
     "condition": {
       "type": "origins:and",
@@ -58,6 +59,9 @@
           "inverted": true,
           "type": "origins:submerged_in",
           "fluid": "minecraft:water"
+        },
+        {
+          "type": "origins:in_rain"
         }
       ]
     },

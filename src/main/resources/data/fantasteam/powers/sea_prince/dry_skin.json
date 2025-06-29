@@ -1,0 +1,65 @@
+{
+  "type": "origins:multiple",
+
+  "source": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 600
+  },
+
+  "watertime": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:if_else",
+      "condition": {
+        "type": "origins:and",
+        "conditions": [
+          {
+            "type": "origins:in_rain",
+            "inverted": true
+          },
+          {
+            "type": "origins:fluid_height",
+            "fluid": "minecraft:water",
+            "comparison": ">",
+            "compare_to": 0,
+            "inverted": true
+          }
+        ]
+      },
+      "if_action": {
+        "type": "origins:change_resource",
+        "resource": "desefforigins:dry_skin_rework_source",
+        "change": 1
+      },
+      "else_action": {
+        "type": "origins:change_resource",
+        "resource": "*:*_source",
+        "change": -10
+      }
+    },
+    "interval": 20
+  },
+
+  "watereffects": {
+
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 1,
+    "duration_per_stack": 40,
+    "tick_rate": 10,
+    "effect": {
+      "effect": "minecraft:slowness",
+      "is_ambient": true,
+      "show_particles": true,
+      "show_icon": true
+    },
+
+    "condition": {
+      "type": "origins:resource",
+      "resource": "*:*_source",
+      "comparison": "==",
+      "compare_to": 600
+    }
+  }
+}

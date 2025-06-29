@@ -1,0 +1,35 @@
+{
+  "type": "origins:multiple",
+
+  "pouch_inventory": {
+    "type": "origins:inventory",
+    "title": "medicine_pouch",
+    "container_type": "hopper",
+    "drop_on_death": false,
+    "key": {
+      "key": "key.origins.primary_active"
+    }
+  },
+
+
+  "scroll_inventory_restriction": {
+    "type": "origins:action_over_time",
+    "interval": 1,
+    "entity_action": {
+      "type": "origins:drop_inventory",
+      "inventory_type": "power",
+      "item_condition": {
+        "inverted": true,
+        "type": "origins:ingredient",
+        "ingredient": [
+          {
+            "tag": "fantasteam:medicine"
+          }
+        ]
+      },
+      "slots": [],
+      "power": "*:*_pouch_inventory",
+      "retain_ownership": true
+    }
+  }
+}

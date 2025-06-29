@@ -1,8 +1,13 @@
 {
   "powers": [
-    "fantasteam:experiment_13/plant"
+    "fantasteam:experiment_13/plant",
+    "fantasteam:experiment_13/falldmg",
+    "fantasteam:experiment_13/small",
+    "fantasteam:experiment_13/creeper",
+    "fantasteam:experiment_13/nightvision",
+    "fantasteam:experiment_13/medicinepouch"
   ],
-  "icon": "alexsmobs:acacia_blossom",
+  "icon": "minecraft:moss_carpet",
   "impact": 1,
   "order": 4
 }

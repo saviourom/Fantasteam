@@ -18,6 +18,7 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.pancake_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.SOLID_LUCK.get());
+                        output.accept(ModItems.LUNAR_LAMP.get());
                         output.accept(ModItems.VASTAYAN_FEATHER.get());
                         output.accept(ModItems.WARP_TOME.get());
 
