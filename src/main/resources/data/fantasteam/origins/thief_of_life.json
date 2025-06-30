@@ -1,6 +1,7 @@
 {
   "powers": [
-    "fantasteam:thief_of_life/gt_energy"
+    "fantasteam:thief_of_life/gt_energy",
+    "fantasteam:thief_of_life/heal"
 
   ],
   "icon": "minecraft:dirt"

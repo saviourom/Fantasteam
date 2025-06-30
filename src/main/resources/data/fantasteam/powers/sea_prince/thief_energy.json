@@ -22,10 +22,21 @@
     "type": "origins:execute_command",
     "command": "origin set @s origins:godtier fantasteam:thief_of_life",
     "condition": {
-      "inverted": true,
-      "type": "origins:origin",
-      "origin": "fantasteam:witch_of_life",
-      "layer": "fantasteam:godtier"
+      "type": "origins:and",
+      "conditions": [
+        {
+          "inverted": true,
+          "type": "origins:origin",
+          "origin": "fantasteam:witch_of_life",
+          "layer": "fantasteam:godtier"
+        },
+        {
+          "type": "origins:resource",
+          "resource": "fantasteam:sea_prince/thief_energy",
+          "comparison": "==",
+          "compare_to": 700
+        }
+      ]
     }
   }
 }

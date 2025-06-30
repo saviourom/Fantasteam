@@ -39,7 +39,60 @@
         }
       }
     }
-  }
+  },
 
+  "witch_energy_full": {
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:change_resource",
+    "resource": "fantasteam:sea_prince/witch_energy",
+    "change": -1
+  },
+  "interval": 5,
+  "condition": {
+    "type": "origins:and",
+    "conditions":
+    [
+      {
+        "type": "origins:resource",
+        "resource": "fantasteam:sea_prince/witch_energy",
+        "comparison": "==",
+        "compare_to": 700
+      },
+      {
+        "type": "origins:origin",
+        "origin": "fantasteam:witch_of_life",
+        "inverted": true
+      }
+    ]
+  }
+},
+
+  "thief_energy_full": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "fantasteam:sea_prince/thief_energy",
+      "change": -1
+    },
+    "interval": 5,
+    "condition": {
+      "type": "origins:and",
+      "conditions":
+      [
+        {
+          "type": "origins:resource",
+          "resource": "fantasteam:sea_prince/thief_energy",
+          "comparison": "==",
+          "compare_to": 700
+        },
+        {
+          "type": "origins:origin",
+          "origin": "fantasteam:thief_of_life",
+          "inverted": true
+        }
+      ]
+    }
+  }
 
 }

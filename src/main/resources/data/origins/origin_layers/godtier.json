@@ -17,6 +17,11 @@
             "type": "origins:origin",
             "origin": "fantasteam:thief_of_life",
             "inverted": true
+          },
+          {
+            "type": "origins:origin",
+            "origin": "fantasteam:sea_prince",
+            "layer": "origins:origin"
           }
         ]
       }
@@ -39,6 +44,11 @@
             "resource": "fantasteam:sea_prince/thief_energy",
             "comparison": ">",
             "compare_to": 1
+          },
+          {
+            "type": "origins:origin",
+            "origin": "fantasteam:sea_prince",
+            "layer": "origins:origin"
           }
         ]
       }
@@ -61,11 +71,15 @@
             "resource": "fantasteam:sea_prince/witch_energy",
             "comparison": ">",
             "compare_to": 1
+          },
+          {
+            "type": "origins:origin",
+            "origin": "fantasteam:sea_prince",
+            "layer": "origins:origin"
           }
         ]
       }
     }
   ],
-  "name": "godtier.",
-  "enabled": false
+  "name": "godtier."
 }

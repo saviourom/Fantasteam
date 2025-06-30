@@ -1,0 +1,10 @@
+{
+  "type": "origins:entity_action_gained",
+  "entity_action_chosen": {
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "origin set @s origins:godtier fantasteam:un_godtiered"
+    }
+  },
+  "execute_chosen_when_orb": false
+}

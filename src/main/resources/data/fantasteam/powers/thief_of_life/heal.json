@@ -1,0 +1,12 @@
+{
+  "type": "origins:self_action_on_hit",
+  "entity_action": {
+    "type": "origins:chance",
+    "chance": 0.25,
+    "action": {
+    "type": "origins:heal",
+    "amount": 8.0
+    }
+  },
+  "cooldown": 1
+}
