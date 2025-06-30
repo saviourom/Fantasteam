@@ -6,5 +6,5 @@
       "command": "origin set @s origins:godtier fantasteam:un_godtiered"
     }
   },
-  "execute_chosen_when_orb": false
+  "execute_chosen_when_orb": true
 }

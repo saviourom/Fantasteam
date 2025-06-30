@@ -1,6 +1,20 @@
 {
-
-    "type": "origins:active_self",
+  "type": "origins:active_self",
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:origin",
+        "origin": "fantasteam:large_fairy",
+        "inverted": true
+      },
+      {
+        "type": "origins:origin",
+        "origin": "fantasteam:small_fairy",
+        "inverted": true
+      }
+    ]
+  },
     "entity_action": {
       "type": "origins:if_else",
       "condition": {
@@ -17,7 +31,6 @@
             "type": "origins:origin",
             "origin": "fantasteam:fairy_normal",
             "layer": "fantasteam:fairysizes"
-
           }
         ]
       },
@@ -25,10 +38,14 @@
         "type": "origins:execute_command",
         "command": "origin set @s origins:fairysizes fantasteam:small_fairy"
       }
-
     },
-    "cooldown": 1,
-    "hud_render": {
+  "key":
+  {
+    "key": "key.saveToolbarActivator"
+  },
+  "cooldown": 1,
+  "hud_render":
+    {
       "should_render": false
     }
 }

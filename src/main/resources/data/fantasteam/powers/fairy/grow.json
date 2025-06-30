@@ -1,6 +1,23 @@
 {
 
   "type": "origins:active_self",
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:origin",
+        "origin": "fantasteam:large_fairy",
+        "layer": "fantasteam:fairysizes",
+        "inverted": true
+      },
+      {
+        "type": "origins:origin",
+        "origin": "fantasteam:small_fairy",
+        "layer": "fantasteam:fairysizes",
+        "inverted": true
+      }
+    ]
+  },
   "entity_action": {
     "type": "origins:if_else",
     "condition": {
@@ -11,7 +28,7 @@
           "type": "origins:resource",
           "resource": "fantasteam:fairy/fairy_dust",
           "comparison": ">",
-          "compare_to": 1
+          "compare_to": 2
         },
         {
           "type": "origins:origin",
@@ -25,11 +42,11 @@
       "command": "origin set @s origins:fairysizes fantasteam:large_fairy"
     }
   },
+  "key": {
+    "key": "key.loadToolbarActivator"
+  },
   "cooldown": 1,
   "hud_render": {
     "should_render": false
-  },
-  "key": {
-    "key": "key.origins.secondary_active"
   }
 }

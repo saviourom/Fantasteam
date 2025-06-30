@@ -11,7 +11,7 @@
       [
         {
           "type": "origins:origin",
-          "origin": "fantasteam:large_fairy",
+          "origin": "fantasteam:small_fairy",
           "layer": "fantasteam:fairysizes"
         }
       ]
@@ -22,7 +22,7 @@
     }
   },
   "key": {
-    "key": "key.saveToolbarActivator"
+    "key": "key.loadToolbarActivator"
   },
   "cooldown": 1,
   "hud_render": {

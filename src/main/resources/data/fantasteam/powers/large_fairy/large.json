@@ -1,5 +1,6 @@
 {
   "type": "origins:action_on_callback",
+
   "entity_action_chosen": {
     "type": "origins:execute_command",
     "command": "scale set pehkui:base 1.32"
